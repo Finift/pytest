@@ -19,6 +19,7 @@ with open('sec_add.txt', mode='a') as sec_add:
 def test_comparison():
     data = open('sec_add.txt', 'r').readlines()
     assert 'BBG000B9Y9C7' in data, "Item wasn't added"
+    sec_add.close()
 #
 # #Удаление всех данных из файла:
 # f = open('sec_add.txt', 'r+')
