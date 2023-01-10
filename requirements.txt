@@ -1,0 +1,8 @@
+allure-pytest
+requests
+pytest
+BeautifulSoup
+bs4
+time
+math
+lxmlpip
