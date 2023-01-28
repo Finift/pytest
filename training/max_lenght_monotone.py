@@ -25,6 +25,4 @@ for i in a:
         D_counter = H_counter = 1
         prev = i
         c.append(1)
-
 print(max(c))
-
