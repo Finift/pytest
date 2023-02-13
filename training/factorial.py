@@ -13,7 +13,7 @@ from _datetime import datetime
 # end = datetime.now()
 # print((end - start).total_seconds() * 10**3)
 
-# В два раза быстрее, но n до 996!
+# В два раза быстрее, но n до 998!
 def factorial(n):
     if n == 0:
         return 1
