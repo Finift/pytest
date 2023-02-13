@@ -2,9 +2,12 @@ from _datetime import datetime
 
 # def factorial(n):
 #     fact = n
-#     for i in range(1, (n - 1)):
-#         fact = fact * (n - i)
-#     return fact
+#     if n == 0:
+#         return 1
+#     else:
+#         for i in range(1, (n - 1)):
+#             fact = fact * (n - i)
+#         return fact
 #
 #
 # n = int(input())
