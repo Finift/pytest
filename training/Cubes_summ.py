@@ -26,8 +26,9 @@
 # 8 8 8 8 1 1
 # 41
 # 8 8 8 8 8 1
+from decorators import benchmark
 
-
+@benchmark(iters=10)
 def cubes(n):
     nw = n
     answ = []
