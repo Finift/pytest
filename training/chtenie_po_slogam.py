@@ -16,5 +16,6 @@ with open("Kurochka_ryaba.txt", "r", encoding="utf-8") as chicken:
         skazka = ''
         for i in razbity_text:
             skazka += i
+
 with open("Kurochka_ryaba_po_slogam.txt", "w", encoding="utf-8") as chn_new:
     chn_new.write(skazka)
