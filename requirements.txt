@@ -1,11 +1,10 @@
 allure-pytest
 requests
+urllib3
 pytest
-BeautifulSoup
 bs4
 time
 math
 lxmlpip
 pytest-dependency
-logging
 logging.config
