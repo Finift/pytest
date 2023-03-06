@@ -7,3 +7,5 @@ time
 math
 lxmlpip
 pytest-dependency
+logging
+logging.config
