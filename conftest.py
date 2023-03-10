@@ -30,7 +30,10 @@ def get_users():
 
 # передать значения в фикстуру:
 def _calculate(a, b):
-    return a + b
+    if isinstance(a, int) and isinstance(b, int):
+        return a + b
+    else:
+        return None
 
 @pytest.fixture()
 def calculate():
