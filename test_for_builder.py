@@ -31,6 +31,12 @@ def test_something3(get_player_generator):
 
 
 # Изменили значение
-def test_something4(get_player_generator):
-    obj_to_send = get_player_generator.update_inner_value(['localize', 'fr', 'is', 'the', 'best', 'lang'], PlayerLocalization('fr_FR').build()).build()
+# def test_something4(get_player_generator):
+#     obj_to_send = get_player_generator.update_inner_value(['localize', 'fr', 'is', 'the', 'best', 'lang'], PlayerLocalization('fr_FR').build()).build()
+#     print(obj_to_send)
+
+# Параметризируем в предыдущем язык
+@pytest.mark.parametrize("localizations", ["fr", "de", "ch", "cz", "pl"])
+def test_something4(get_player_generator, localizations):
+    obj_to_send = get_player_generator.update_inner_value(['localize', localizations], PlayerLocalization('fr_FR').build()).build()
     print(obj_to_send)
