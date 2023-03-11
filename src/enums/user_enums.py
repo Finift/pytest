@@ -10,6 +10,8 @@ class Genders(Enum):
 class Statuses(Enum):
     inactive = "inactive"
     active = "active"
+    banned = "banned"
+    deleted = "deleted"
 
 
 class UserErrors(Enum):

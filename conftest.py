@@ -2,7 +2,12 @@ import pytest
 import requests
 from configuration import SERVICE_URL
 import random
+from src.generators.player import Player
 
+
+@pytest.fixture
+def get_player_generator():
+    return Player()
 
 @pytest.fixture()
 def some_data():
@@ -10,7 +15,7 @@ def some_data():
     return 42
 
 
-@pytest.fixture()
+pytest.fixture()
 def fix_data():
     """Return answer to ultimate question."""
     return ['BBG000C16SC2', 'BBG00Z3YMPH6', 'BBG001Y7R8L4', 'BBG000PSNF38', 'BBG000B9Y9C7']
@@ -34,6 +39,7 @@ def _calculate(a, b):
         return a + b
     else:
         return None
+
 
 @pytest.fixture()
 def calculate():
