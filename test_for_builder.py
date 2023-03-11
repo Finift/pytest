@@ -28,3 +28,9 @@ def test_something1(delete_key, get_player_generator):
 def test_something3(get_player_generator):
     obj_to_send = get_player_generator.update_inner_generator('localize', PlayerLocalization('fr_FR').set_number(17)).build()
     print(obj_to_send)
+
+
+# Изменили значение
+def test_something4(get_player_generator):
+    obj_to_send = get_player_generator.update_inner_value(['localize', 'fr', 'is', 'the', 'best', 'lang'], PlayerLocalization('fr_FR').build()).build()
+    print(obj_to_send)
