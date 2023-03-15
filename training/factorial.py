@@ -1,8 +1,6 @@
-from _datetime import datetime
-from decorators import measure_time
-from timeit import default_timer as timer
+from Study.decorators import measure_time
 import math
-import time
+
 
 # def factorial(n):
 #     fact = n

@@ -1,0 +1,35 @@
+Code,Type Name
+CCY,Currency
+RATE,Rate
+FXFW,FX Forward
+ETF,Exchange Traded Fund
+EQTY,Equity
+UNIT,Equity Unit
+ADR,Depository Receipt
+EQPF,Equity Preferred
+RGHT,Equity Right
+INDX,Index
+WRNT,Warrant
+LOPT,Listed Option
+CPFD,Cumulative Preferred
+CONV,Bond Convertible
+CVPF,Preferred Convertible
+SOVR,Bond Sovereign
+CORP,Bond Corporate
+ABS,Asset Backed Security
+CMDT,Commodity
+COOF,Index and Non-Equity Option
+CRDT,Credit Contract
+LOAN,Repo Loan
+SCFD,Equity Derivatives
+FUT,Future
+SIRS,Fixed Income Derivatives
+SWOP,OTC Option
+FUND,Fund
+CDS,Credit Derivatives
+BKDT,Bank Debt
+BSKT,Basket
+HBRD,Hybrid
+CDX,Credit Index
+CSW,Commodity Swap
+SWP,Variance Swap

@@ -2,7 +2,7 @@ from pydantic import BaseModel, HttpUrl, UUID4, EmailStr
 from pydantic.types import PastDate, FutureDate, List, PaymentCardNumber
 from pydantic.networks import IPv4Address, IPv6Address
 from pydantic.color import Color
-from src.enums.user_enums import Statuses
+from Study.src.enums.user_enums import Statuses
 
 from examples import computer
 

@@ -1,5 +1,5 @@
 from pydantic import BaseModel, validator
-from src.enums.user_enums import Genders, Statuses, UserErrors
+from Study.src.enums.user_enums import Genders, Statuses, UserErrors
 
 
 class User(BaseModel):
