@@ -1,0 +1,21 @@
+{
+    "securities": {
+        "security": {
+                "ID": "US004kk5DZ13",
+                "Sec_type": "Asset Backet",
+                "SecTypeID": 30,
+                "Ticket": "AAWW",
+                "country": "Ireland",
+                "Name": "Energy Trust",
+                "SYMBOL": "AAET"
+            }, {
+                "ID": "BBG00014PH59",
+                "Sec_type": "Bank debt",
+                "SecTypeID": "35",
+                "Ticket": "AAPL",
+                "country": "UK",
+                "Name": "Auto Adler Post",
+                "SYMBOL": "AAPUK"
+                }
+    }
+}
