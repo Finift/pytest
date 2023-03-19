@@ -1,5 +1,5 @@
 from My_own_tests.enums.security_enums import SecTypes
-from pydantic import BaseModel, validator, ValidationError
+from pydantic import BaseModel, validator, ValidationError, Field
 import xmltodict
 
 with open("C:/Users/User/PycharmProjects/pytest/My_own_tests/test_data/response.xml") as fd:
@@ -11,8 +11,8 @@ class Security(BaseModel):
     ID: str
     Ticket: str
     SecTypeID: int
-    Sec_type: SecTypes
-    Name: str
+    Sec_type: SecTypes = Field(alias='SEC_TYPE')
+    Name: str = Field(alias='NAME')
     SYMBOL: str
 
     @validator('ID', pre=True, always=True)
@@ -29,8 +29,10 @@ class Security(BaseModel):
         else:
             raise ValueError('SYMBOL is not correct!')
 
+
 class Securities(BaseModel):
     security: list[Security]
+
 
 try:
     security = Securities.parse_obj(obj['securities'])

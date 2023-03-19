@@ -12,7 +12,7 @@ class SecTypes(Enum):
     CumulativePreferred = "Cumulative Preferred"
     Depository = "Depository"
     DepositoryReceipt = "Depository Receipt"
-    EquityPreffered = "Equity Preffered"
+    EquityPreferred = "Equity Preferred"
     Equity = "Equity"
     EquityRight = "Equity Right"
     EquityUnit = "Equity Unit"
