@@ -1,0 +1,20 @@
+<securities>
+    <security>
+        <ID>US004kk5DZ13</ID>
+        <Sec_type>Asset Backet</Sec_type>
+        <SecTypeID>30</SecTypeID>
+        <Ticket>AAWW</Ticket>
+        <country>Ireland</country>
+        <Name>Energy Trust</Name>
+        <SYMBOL>AAET</SYMBOL>
+    </security>,
+    <security>
+        <ID>BBG00014PH59</ID>
+        <Sec_type>Bank Debt</Sec_type>
+        <SecTypeID>35</SecTypeID>
+        <Ticket>AAPL</Ticket>
+        <country>UK</country>
+        <Name>Auto Adler Post</Name>
+        <SYMBOL>AAPUK</SYMBOL>
+      </security>
+</securities>
