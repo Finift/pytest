@@ -28,7 +28,7 @@ class TestBlog(TestCase):
  # Additional assertions:
         assert MockBlog is main_API.Blog  # The mock is equivalent to the original
 
-        assert MockBlog.called  # The mock wasP called
+        assert MockBlog.called  # The mock was called
 
         blog.posts.assert_called_with()  # We called the posts method with no arguments
 
