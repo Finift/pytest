@@ -1,10 +1,10 @@
 import requests
 
-from configuration import SERVICE_URL
+from Study.configuration import SERVICE_URL
 
-#from src.schemas.post import POST_SCHEMA
-from src.baseclasses.response import Response
-from src.pydantic_schemas.post import Post
+#from Study.src.schemas.post import POST_SCHEMA
+from Study.src.baseclasses.response import Response
+from Study.src.pydantic_schemas.post import Post
 
 
 def test_getting_post():

@@ -1,4 +1,4 @@
-from matches import matches
+from Study.matches import matches
 
 
 class TestMatches:

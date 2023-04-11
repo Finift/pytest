@@ -1,7 +1,7 @@
 import requests
-from configuration import SERVICE_URL
-from src.baseclasses.response import Response
-from src.schemas.user import User
+from Study.configuration import SERVICE_URL
+from Study.src.baseclasses.response import Response
+from Study.src.schemas.user import User
 
 
 # resp = requests.get(SERVICE_URL)

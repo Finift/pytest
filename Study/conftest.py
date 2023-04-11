@@ -1,8 +1,8 @@
 import pytest
 import requests
-from configuration import SERVICE_URL
+from Study.configuration import SERVICE_URL
 import random
-from src.generators.player import Player
+from Study.src.generators.player import Player
 
 
 @pytest.fixture

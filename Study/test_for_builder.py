@@ -1,6 +1,6 @@
 import pytest
-from src.enums.user_enums import Statuses
-from src.generators.player_localization import PlayerLocalization
+from Study.src.enums.user_enums import Statuses
+from Study.src.generators.player_localization import PlayerLocalization
 
 
 

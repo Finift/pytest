@@ -1,5 +1,5 @@
-from src.baseclasses.response import Response
-from src.schemas.user import User
+from Study.src.baseclasses.response import Response
+from Study.src.schemas.user import User
 
 
 def test_getting_users_list(get_users, status_code, make_number):
