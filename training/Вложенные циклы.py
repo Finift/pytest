@@ -20,3 +20,4 @@ list_c = [3, 70, 7]
 for a, b, c in product(list_a, list_b, list_c):
     if a + b + c == 2077:
         print(a, b, c)
+
